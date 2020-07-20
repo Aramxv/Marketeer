@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
-/*    Sass Document     */
+/*    Imported Sass Document     */
 /*  Variables Classes  */
 /*   Global Classes  */
 button, button:focus {
@@ -94,6 +94,22 @@ button, button:focus {
 }
 #top-sale .owl-carousel .owl-nav button.owl-next span {
   margin-right: -4rem;
+}
+
+/*  Special Price Sass Document */
+#special-price .grid {
+  margin-left: 80px;
+}
+#special-price .grid .grid-item {
+  margin-right: 1.25rem;
+  margin-top: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/*  Advertisements Sass Document */
+#advertisement-area .container .banner-ad {
+  width: 500px;
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

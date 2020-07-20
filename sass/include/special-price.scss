@@ -1,0 +1,13 @@
+/*  Special Price Sass Document */
+
+#special-price{
+    .grid{
+        margin-left: 80px;
+        
+    }
+    .grid .grid-item{
+        margin-right: 1.25rem;
+        margin-top: 1rem;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+}
