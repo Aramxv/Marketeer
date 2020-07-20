@@ -5,6 +5,7 @@ $(document).ready(function(){
 
     // banner owl carousel 
     $("#banner-area .owl-carousel").owlCarousel({
+        loop:true,
         dots:true,
         items:1
     });
@@ -29,4 +30,18 @@ $(document).ready(function(){
             }
         }
     });
+
+    // Isotope Filter
+    var $grid=$(".grid").isotope({
+        itemSelector:'.grid-item',
+        layoutMode:'fitRows'
+    });
+
+    // Filter items on button Click
+    $(".button-group").on("click","button",function(){
+        var filterValue=$(this).attr('data-filter');
+        $grid.isotope({filter:filterValue});
+    });
+
+    
 });
