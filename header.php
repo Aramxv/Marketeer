@@ -17,7 +17,12 @@
        
            <!-- Custom CSS Document-->
            <link rel="stylesheet" href="style.css">
-   
+
+           <?php
+            // Require Functions PHP File
+            require('functions.php');
+           ?>
+
        </head>
        <body>
    
